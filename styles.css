@@ -1,0 +1,127 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body, .star-container, .numButton, #numContainer, #wrapper, #ty-container, #thankYou #score {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+body {
+    height: 100vh;
+    background: hsl(228, 11%, 9%);
+}
+#wrapper {
+    width: 405px;
+    height: 420px;
+    background: hsl(218, 27%, 12%);
+    border-radius: 20px;
+}
+.container {
+    width: 345px;
+    height: 360px;
+}
+.star-container {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background: hsl(210, 19%, 18%);
+}
+h1 {
+    margin-top: 40px;
+    color: hsl(0, 0%, 100%);
+    font: 700 28px/36px 'Overpass', sans-serif;
+}
+p, .numButton {
+    color: hsl(217, 12%, 63%);
+    font: 400 15px/20px 'Overpass', sans-serif;
+}
+p {
+    margin-top: 20px;
+}
+.numButton {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: hsl(210, 19%, 18%);
+    transition: 0.2s;
+}
+.numButton:hover {
+    background: hsl(25, 97%, 53%);
+    color: hsl(0, 0%, 100%);
+    transition: 0.2s;
+    cursor: pointer;
+}
+.numButtonActive {
+    color:hsl(0, 0%, 100%);
+    background-color: hsl(217, 12%, 63%);
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    transition: 0.2s;
+}
+#numContainer {
+    margin-top: 25px;
+    justify-content: space-between;
+}
+button {
+    color:hsl(0, 0%, 100%);
+    height: 45px;
+    width: 340px;
+    font: 400 16px/20px 'Overpass', sans-serif;
+    border-radius: 22.5px;
+    border: none;
+    background: hsl(25, 97%, 53%);
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-top: 30px;
+    transition: 0.2s;
+}
+button:hover {
+    background: hsl(0, 0%, 100%);
+    color: hsl(25, 97%, 53%);
+    transition: 0.2s;
+    cursor: pointer;
+}
+#ty-wrapper {
+    display: none;
+}
+#thankYou {
+    width: 405px;
+    height: 420px;
+    background: hsl(218, 27%, 12%);
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+#ty-container {
+    flex-direction: column;
+    height: 340px;
+    width: 340px;
+}
+#thankYou p {
+    text-align: center;
+}
+#thankYou #score {
+    background-color: hsl(210, 19%, 18%);
+    color: hsl(25, 97%, 53%);
+    font: 400 16px/20px 'Overpass', sans-serif;
+    letter-spacing: normal;
+    width: 195px;
+    height: 30px;
+    border: none;
+    border-radius: 15px;
+    margin-top: 30px;
+    padding-top: 5px;
+}
+
+.attribution {
+    display: none;
+}
+.attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+
+
